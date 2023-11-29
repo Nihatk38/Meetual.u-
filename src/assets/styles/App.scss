@@ -1,0 +1,108 @@
+@import "./_variables";
+
+.dialog-w {
+  width: 50vw;
+  margin: auto;
+}
+
+#gridContainerId {
+  height: 0;
+}
+
+.grid-update-mode {
+  background-color: #c0efc0;
+}
+
+.tk-label {
+  display: block;
+  width: 100%;
+}
+
+.tk-Input {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+
+  input:focus {
+    border-color: var(--primary-color);
+  }
+
+  &.has-error input:focus {
+    border-color: #f11919;
+  }
+
+  &.has-error .help-message {
+    color: #f11919;
+  }
+
+  &.success input:focus {
+    border-color: #c9f5c9;
+  }
+}
+
+
+.help-message {
+  position: absolute;
+  bottom: calc(-1.5 * 1em);
+  left: 0;
+  margin: 0;
+  font-size: $fontSize;
+}
+
+.error-tooltip .p-tooltip-text {
+  background-color: #be0303;
+  color: rgb(255, 255, 255);
+}
+
+.error-tooltip.p-tooltip-right .p-tooltip-arrow {
+  border-right-color: #be0303;
+}
+
+.error-tooltip.error-icon {
+  color: #be0303 !important;
+}
+
+.p-dialog-custom .p-dialog-header {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-bottom: solid 1px lightgray;
+  background: #ffffff;
+  color: #495057;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.p-dialog-custom .p-dialog-footer {
+  border-top: 0 none;
+  padding: 1rem 1.5rem 0.75rem 1.5rem;
+  border-top: solid 1px lightgray;
+  background: #ffffff;
+  color: #495057;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.sidebar-size {
+  width: 30rem !important;
+}
+
+.sidebar-size.p-component-overlay {
+
+  background-color: rgba(0, 0, 0, -0.6) !important;
+}
+
+.dialog-content {
+  min-height: 450px;
+  height: 100%;
+}
+
+.height-0 {
+  height: 0;
+}
+
+@media screen and (min-width: 1367px) {
+  .dialog-content {
+    min-height: 640px;
+    height: 100%;
+  }
+}
+

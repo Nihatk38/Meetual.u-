@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "Id": 1,
+      "UserName": "SuperUser",
+      "Email": "superuser@gmail.com",
+      "Password": "1",
+      "Status": 1
+    },
+    {
+      "Id": 2,
+      "UserName": "Danışman1",
+      "Email": "d1@gmail.com",
+      "Password": "1",
+      "Status": 2
+    },
+    {
+      "Id": 3,
+      "UserName": "Danışman2",
+      "Email": "d2@gmail.com",
+      "Password": "1",
+      "Status": 2
+    },
+    {
+      "Id": 4,
+      "UserName": "Danışman3",
+      "Email": "d3@gmail.com",
+      "Password": "1",
+      "Status": 2
+    },
+    {
+      "Id": 5,
+      "UserName": "Danışan1",
+      "Email": "dn1@gmail.com",
+      "Password": "1",
+      "Status": 3
+    },
+    {
+      "Id": 6,
+      "UserName": "Danışan2",
+      "Email": "dn2@gmail.com",
+      "Password": "1",
+      "Status": 3
+    },
+    {
+      "Id": 7,
+      "UserName": "Danışan3",
+      "Email": "dn3@gmail.com",
+      "Password": "1",
+      "Status": 3
+    }
+  ]
+}

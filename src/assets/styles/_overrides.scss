@@ -1,0 +1,90 @@
+.p-menubar ul {
+  margin: auto !important;
+}
+
+.p-menubar {
+  padding: 0px !important;
+  box-shadow: 0 1px 1px -1px gray;
+  border-bottom: 1px solid #dee2e6 !important;
+  background: white !important;
+}
+
+.p-inputtext {
+  width: 100% !important;
+}
+
+.p-calendar {
+  width: 100% !important;
+}
+
+.p-dropdown-panel {
+  z-index: 4111 !important;
+}
+
+.p-datepicker {
+  z-index: 4115 !important;
+}
+
+@media (min-width: 768px) {
+  .p-tieredmenu {
+    left: 55px !important;
+  }
+}
+
+.p-tieredmenu {
+  right: 0 !important;
+}
+
+.p-tabview {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.p-tabview-nav {
+  margin-bottom: 1px
+}
+
+.p-tabview-panels {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-tabview-panel {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-dialog .p-dialog-content {
+  padding: 1rem;
+}
+
+.p-dialog-content {
+  overflow-y: visible;
+}
+
+.p-accordion .p-accordion-tab-active {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.p-accordion .p-accordion-tab .p-accordion-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.p-accordion .p-toggleable-content{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.p-sidebar .p-sidebar-content {
+  display: flex;
+  flex-direction: column;
+}
